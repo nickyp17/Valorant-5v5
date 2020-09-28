@@ -64,9 +64,10 @@ mainframe = Frame(root)
 #WIDGETS
 
 #title
-logoImg = Image.open('val.png').resize((371, 53))
-logoPhoto = ImageTk.PhotoImage(logoImg)
-titleLabel = Label(mainframe, image=logoPhoto)
+#logoImg = Image.open('val.png').resize((371, 53))
+#logoPhoto = ImageTk.PhotoImage(logoImg)
+#titleLabel = Label(mainframe, image=logoPhoto)
+titleLabel = Label(mainframe, text='Valorant', fg='red', font=('Bernard MT Condensed', 45))
 
 """ headerCv = Canvas(mainframe, width=400, height=100)
 headerCv.pack(expand=YES, fill=BOTH)
