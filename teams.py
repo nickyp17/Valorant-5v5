@@ -48,10 +48,8 @@ def main(guiInput):
         elif item[1][:-1] == 'immortal':
             numRank = 7
             numRank += int(item[1][-1]) / 10
-        elif item[1][:-1] == 'valorant':
-            numRank = 8
         else:
-            print("invalid input")
+            numRank = 8
 
         numRank = str(numRank)
 
