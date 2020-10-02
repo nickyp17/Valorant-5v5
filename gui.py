@@ -58,6 +58,7 @@ def getPlayers():
  
 #MAIN
 root = Tk()
+root.title('Valorant Team Maker')
 mainframe = Frame(root)
 
 
